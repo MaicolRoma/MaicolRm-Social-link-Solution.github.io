@@ -151,3 +151,16 @@ main{
 }
 
 }
+@media (min-width:1280px){
+    main{
+        width: 20%;
+        height: 30rem;
+}
+.card-black{
+    background-color: var(--Grey800);
+    height: 100%;
+    border-radius: 0.5rem;
+    padding: 2.2rem 1.6rem;
+}
+
+}
