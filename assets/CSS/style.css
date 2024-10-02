@@ -1,0 +1,153 @@
+
+
+:root{
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey700: hsl(0, 0%, 20%);
+--Grey800: hsl(0, 0%, 12%);
+--Grey900: hsl(0, 0%, 8%);
+
+}
+
+/*---------------344px-------------------------------------------*/
+@media (min-width:344px){
+body{
+    background-color: var(--Grey900);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 76%;
+    height: 30rem;
+
+}
+.card-black{
+    background-color: var(--Grey800);
+    height: 100%;
+    border-radius: 0.5rem;
+    padding: 2.2rem 1.6rem;
+}
+.card-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-head figure{
+    margin-bottom: 1rem;
+}
+.photo-profile{
+    border-radius: 11rem;
+    height: 5rem;
+}
+.name-profile{
+    color: var(--White);
+    margin-bottom: 0.5rem;
+    font-family: "Inter", sans-serif; 
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+}
+.country{
+    margin-bottom: 1.5rem;
+    font-family: "Inter", sans-serif; 
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: x-small;
+    font-style: normal;
+    color:var(--Green) ;
+    text-align: center;
+    width: 100%;
+}
+.description{
+    margin-bottom: 1.4rem;
+    text-align: center;
+    font-family: "Inter", sans-serif; 
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: x-small;
+    color:var(--White);
+    text-align: center;
+    width: 100%;
+}
+
+.nav-card-links{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.btn{
+    margin-bottom: 1rem;
+    background-color:var(--Grey700);
+    text-align: center;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.4rem;
+}
+
+.btn:hover{
+ background-color: var(--Green); 
+}
+
+.btn:active{
+    background-color: var(--Green); 
+   }
+
+.link{
+    width: 100%;
+    text-decoration: none;
+    color: var(--White);
+    text-align: center;
+    font-family: "Inter", sans-serif; 
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: small;   
+
+}
+
+.link:hover{
+    color: black;
+    font-weight: bold;
+}
+.link:active{
+    color: black;
+    font-weight: bold;
+}
+
+}
+/*---------------768px-------------------------------------------*/
+@media (min-width:768px){
+    main{
+        width: 35%;
+        height: 30rem;
+}
+
+}
+/*---------------1024px-------------------------------------------*/
+@media (min-width:1024px){
+    main{
+        width: 25%;
+        height: 30rem;
+}
+.card-black{
+    background-color: var(--Grey800);
+    height: 100%;
+    border-radius: 0.5rem;
+    padding: 2.2rem 1.6rem;
+}
+
+}
